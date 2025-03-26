@@ -38,6 +38,6 @@ Abaixo está uma lista de projetos contendo descrições detalhadas, links para 
 
 ## Contato.
 
-- **LinkedIn**: [www.linkedin.com/in/leonardopizzetti](www.linkedin.com/in/leonardopizzetti)
+- **LinkedIn**: [Leonardo Pizzetti](https://www.linkedin.com/in/leonardopizzetti)
 
 Agradeço por sua visita! Feedbacks são sempre bem-vindos.
