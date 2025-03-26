@@ -1,10 +1,10 @@
-Descrição: Análise exploratória de dados de um hipermercado, investigando as principais variáveis que impactam a lucratividade do negócio. Compreendendo diferenças de desempenho geográficas, de categoria, de produto e a influência da estratégia de descontos atual.
+# Análise Exploratória de Dados: Estudo de Desempenho de Hipermercado no Varejo Europeu
 
 ## Considerações Iniciais
 
 Este projeto é desenvolvido em um contexto hipotético e utiliza dados disponibilizados abertamente na internet para criar um cenário de análise.
 
-Logo abaixo, apresento um relatório detalhado do projeto contendo as explicações e as visualizações. Para a análise completa com o código Python utilizado, visite a seguinte página no GitHub: [Projetos de Análise de Dados](https://github.com/L-Pizzetti/Projetos-De-Analise-De-Dados/blob/main/An%C3%A1lise%20de%20Dados%20de%20Hipermercado%20-%20Estudo%20de%20Desempenho%20no%20Varejo%20Europeu/An%C3%A1lise%20de%20Dados%20de%20Hipermercado.ipynb)
+Logo abaixo, apresento um relatório detalhado do projeto contendo as explicações e as visualizações. Para a análise com o código Python utilizado, visite a seguinte página no GitHub: [Acesse o Notebook](https://github.com/L-Pizzetti/portfolio-analise-de-dados/blob/main/An%C3%A1lise%20Explorat%C3%B3ria%20de%20Dados%20-%20Hipermercado%20Europeu/notebook.ipynb)
 
 ## Ferramentas da Análise
 
@@ -44,7 +44,7 @@ O objetivo principal deste projeto reside na condução de uma análise explorat
 - Compreender sua relação com diferentes variáveis, como segmentos de clientes, países, regiões, estados, categorias, subcategorias e produtos.
 - Investigar o quanto a estratégia atual de descontos pode estar prejudicando o lucro da empresa.
 
-**Valor empresarial:**‍
+**Valor empresarial:**
 
 - Compreender como a lucratividade variou ao longo do tempo, se existem padrões ou tendências que nos possam ajudar a explicar o desempenho atual do negócio.
 - Identificar os fatores que possam estar influenciando a lucratividade positiva ou negativamente.
@@ -111,7 +111,7 @@ Até o momento, não identifiquei nenhum problema importante nos dados. As pouca
 
 Pergunta: como a lucratividade mudou ao longo do tempo? Existem padrões e tendências?
 
-IMAGEM1
+<img src="https://github.com/user-attachments/assets/148b71ea-3d7a-4143-8d31-0f46b024ebf9" width="700">
 
 A lucratividade do hipermercado apresenta uma trajetória de crescimento nos últimos 4 anos, atingindo seu maior pico no final do 2° trimestre de 2023, com aproximadamente 40.000 euros de lucro.
 
@@ -121,7 +121,7 @@ Observa-se uma forte tendência de crescimento nos primeiros e segundos trimestr
 
 Pergunta: quais os segmentos de clientes são mais e menos lucrativos?
 
-IMAGEM2
+<img src="https://github.com/user-attachments/assets/3c42394c-21e6-4ee5-b462-524bcc5ab98a" width="700">
 
 O segmento de clientes privados destaca-se como o mais lucrativo, seguido pelo segmento das grandes empresas e, por fim, o segmento das pequenas empresas.
 
@@ -131,15 +131,15 @@ Considerando os segmentos de produtos que estamos estudando, ou seja, material d
 
 Pergunta: quais regiões, países e estados são mais e menos lucrativos?
 
-IMAGEM3
+<img src="https://github.com/user-attachments/assets/56742fc5-f844-4ce5-a4b8-b7e5a57e1993" width="700">
 
 As diferenças na lucratividade entre as regiões são grandes, destaca-se a região central da Europa, cujo desempenho dos últimos 4 anos supera a soma das regiões norte e sul.
 
-IMAGEM4
+<img src="https://github.com/user-attachments/assets/9bc63e7e-ee2f-4226-983e-e593c0f16d34" width="700">
 
 Podemos notar que, especialmente no Reino Unido, França, Alemanha e Espanha, a empresa apresenta um excelente desempenho, com altos lucros quando comparados com os demais países. Enquanto na Dinamarca, Irlanda, Portugal, Suécia e Países Baixos a empresa apresenta prejuízos. A situação nos Países Baixos com um prejuízo de aproximadamente 40.000 euros parece ser particularmente preocupante, investigaremos mais a seguir os possíveis motivos dessa situação.
 
-IMAGEM5
+<img src="https://github.com/user-attachments/assets/b0b169f9-a206-40be-bf8f-ba83b5e8d92c" width="700">
 
 Ao representar os dados graficamente em um mapa, podemos facilmente observar o desempenho da empresa de acordo com sua localização geográfica.
 
@@ -149,13 +149,13 @@ Com o auxílio de ambos os mapas, facilmente identificamos que os problemas do p
 
 O segundo mapa revela que a situação é mais grave do que inicialmente parecia, indicando margens de lucro médias extremamente baixas em alguns países e estados.
 
-IMAGEM6
+<img src="https://github.com/user-attachments/assets/b3525c68-60f7-4f44-a37e-d6203d61793a" width="700">
 
 Colocando esses dados em perspectiva, torna-se evidente que o problema do prejuízo é motivado pela baixa margem de lucro.
 
 As margens de lucro nesses países deficitários variam aproximadamente de menos 55% a menos 45%. Agora, que descobrimos o motivo do prejuízo, buscaremos as causas que levam as margens de lucro a estarem tão baixas. Com base nas informações disponíveis, podemos supor que a estratégia de preços ou a política de descontos podem ser responsáveis pelo problema, uma vez que as margens atuais não cobrem os gastos da empresa.
 
-IMAGEM7
+<img src="https://github.com/user-attachments/assets/2bb4cfb0-8c21-4e6c-9312-d3391ceb5013" width="700">
 
 Este gráfico apresenta a razão pela qual os Países Baixos estão causando grandes prejuízos a empresa. Com margens de lucro negativas e um volume de vendas mais elevado em comparação aos outros países deficitários, os Países Baixos representam uma fonte considerável de perdas.
 
@@ -170,25 +170,24 @@ Para desenvolver essas hipóteses, seria necessário entrar em contato com os re
 
 Pergunta: quais categorias de produtos são mais e menos lucrativas?
 
-IMAGEM8
+<img src="https://github.com/user-attachments/assets/307bfec1-b71c-45d9-b345-4c8997a54445" width="700">
 
 #### 4.1.5 — Lucratividade por Subcategoria de Produto
 
 Pergunta: quais são as subcategorias de produtos mais e menos lucrativas?
 
-IMAGEM9
+<img src="https://github.com/user-attachments/assets/34a41161-aed5-4b67-97f3-21b09113fe2a" width="700">
 
 A análise agregada das subcategorias mostra que a grande maioria contribui positivamente para o lucro do hipermercado, com exceção da subcategoria “Mesas” que gerou um prejuízo de 20.000 euros nos últimos 4 anos. Para compreender o motivo desse desempenho negativo persistente, investigaremos mais afundo as informações que possuímos sobre a subcategoria.
 
 Pergunta: desde quando e por que a subcategoria de produtos "Mesas" está causando prejuízo?
 
-IMAGEM10
+<img src="https://github.com/user-attachments/assets/e8ebd7e5-6f6f-409c-abad-23f57db434f0" width="700">
 
 A subcategoria de produtos "Mesas" está causando prejuízo para a empresa desde antes de 2020, com oscilações persistentes, vem mantendo-se consistentemente negativa na maior parte do tempo.
 
-IMAGEM11
-
-IMAGEM12
+<img src="https://github.com/user-attachments/assets/6890d7b9-bce1-48cd-9f43-41e819334675" width="700">
+<img src="https://github.com/user-attachments/assets/7f1eec11-5a73-452a-82ed-50107cde56be" width="700">
 
 A causa pela qual a subcategoria “Mesas” está gerando prejuízo é devido ao fato de que a maioria dos produtos vendidos nessa subcategoria tem sido comercializado com altos descontos.
 
@@ -204,19 +203,18 @@ Pergunta: quais produtos são mais e menos lucrativos?
 
 Nas categorias que temos disponíveis para análise, o catálogo do hipermercado possui 1856 produtos. Dada a grande quantidade de produtos e sendo o foco desta análise os aspectos principais da lucratividade do negócio, iniciaremos a investigação visualizando os 10 produtos mais lucrativos e os 10 produtos que geram maior prejuízo.
 
-IMAGEM13
-
-IMAGEM14
+<img src="https://github.com/user-attachments/assets/b60f775c-00c5-416c-bbfa-66441e71e33d" width="700">
+<img src="https://github.com/user-attachments/assets/9a037490-457e-4b32-981b-bd26aa6672c6" width="700">
 
 Observa-se que existem vários produtos que estão gerando bastante impacto negativo nos resultados da empresa.
 
-IMAGEM15
+<img src="https://github.com/user-attachments/assets/368e29fe-f59f-4b35-9ed9-510f3bf762bd" width="700">
 
 As informações apresentadas nos gráficos acima são extremamente importantes para empresa. Ao somar o desempenho de cada produto nos últimos 4 anos, constatamos que existe um conjunto de produtos que vem consistentemente gerando prejuízo ao hipermercado.
 
 O hipermercado oferta 1856 produtos nas categorias em nosso estudo, sendo que 1444 estão gerando lucro, enquanto 412 estão causando prejuízo, ou seja, 77,8% são geradores de lucro, enquanto 22,2% são produtos deficitários.
 
-IMAGEM16
+<img src="https://github.com/user-attachments/assets/3f271b71-ea0f-4884-b6f6-254bda888724" width="700">
 
 Somando o prejuízo desses produtos deficitários ao longo dos últimos 4 anos, o valor total dos prejuízos atingi o alto valor de 109 mil euros. São 109 mil euros de perda que, possivelmente, poderiam ter sido evitados.
 
@@ -232,9 +230,8 @@ Pergunta: até que ponto os descontos estão afetando o lucro da empresa?
 
 Anteriormente, buscando compreender as razões por trás dos prejuízos que estavam afetando o lucro geral da empresa, sugeri duas hipóteses iniciais, um problema na estratégia de preços ou um problema na estratégia de descontos. A fim de concluir a análise, veremos o impacto da estratégia atual de desconto na empresa.
 
-IMAGEM17
-
-IMAGEM18
+<img src="https://github.com/user-attachments/assets/4590a08a-cbf0-4bb5-8c9c-3f1494866d7a" width="700">
+<img src="https://github.com/user-attachments/assets/b8f46e56-93ad-4823-9432-5e326ce14d90" width="700">
 
 Para a criação do gráfico de distribuição, optei por retirar os valores extremos dos dados com desconto e sem desconto, isso foi feito para evitar que os valores extremos distorcessem a visualização dos dados.
 
@@ -242,15 +239,13 @@ Realizando a análise anteriormente conduzida na subcategoria de produtos “Mes
 
 Vamos agora verificar o quanto a estratégia de descontos afeta todas as vendas da empresa.
 
-IMAGEM19
-
-IMAGEM20
-
-IMAGEM 21
+<img src="https://github.com/user-attachments/assets/6b12cb3c-9905-43ad-af33-b6b8f653e57e" width="700">
+<img src="https://github.com/user-attachments/assets/1a9eabaf-98b7-419f-9111-c1d939eb120c" width="700">
+<img src="https://github.com/user-attachments/assets/4f96fce1-39f3-4418-8c5e-4686f01a5a5f" width="700">
 
 Novamente, vemos que o problema não está na precificação original dos produtos, mas sim na estratégia de descontos da empresa. Apesar do o grave problema dos descontos estar nos produtos deficitários, a estratégia de descontos também está impactando negativamente a lucratividade geral da empresa.
 
-IMAGEM22
+<img src="https://github.com/user-attachments/assets/ca6124cc-8f7c-4ac6-b5e9-6111b3144696" width="700">
 
 Ao mapear os dados de maneira geográfica, a visualização de nossa conclusão fica ainda mais clara.
 
