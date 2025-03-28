@@ -1,6 +1,6 @@
-# Portfólio de Análise de Dados.
+# Portfólio de Ciência de Dados.
 
-Este repositório reúne projetos voltados à análise de dados, abordando desde a exploração e tratamento até a interpretação dos resultados. O foco está na aplicação de técnicas estatísticas e computacionais para extrair informações relevantes e embasar a tomada de decisão em diferentes contextos.
+Este repositório reúne projetos voltados à ciência de dados, abordando desde a exploração e tratamento até a interpretação dos resultados. O foco está na aplicação de técnicas estatísticas e computacionais para extrair informações relevantes e embasar a tomada de decisão em diferentes contextos.
 
 ## Projetos.
 
@@ -8,7 +8,7 @@ Abaixo está uma lista de projetos contendo descrições detalhadas, links para 
 
 | Projeto                                     | Descrição                                                                                                                                                                                  | Tecnologias                                                                  | Código                          | Relatório                      |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ------------------------------- | ------------------------------ |
-| Análise Exploratória - Hipermercado Europeu | Estudo de 10.000 transações comerciais (2020-2023) em países da União Europeia, identificando padrões de lucratividade, prejuízos de 109 mil euros e falhas na estratégia de descontos. | Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Tableau, Jupyter Notebook | [analise\_hipermecado.ipynb](https://github.com/leonardopizzetti/portfolio-analise-de-dados/blob/4eac0c5bb284cbe991c08860a30412ca0410eb60/An%C3%A1lise%20Explorat%C3%B3ria%20de%20Dados%20-%20Hipermercado%20Europeu/notebook_hipermercado.ipynb) | [relatorio\_hipermecado.md](https://github.com/leonardopizzetti/portfolio-analise-de-dados/blob/4eac0c5bb284cbe991c08860a30412ca0410eb60/An%C3%A1lise%20Explorat%C3%B3ria%20de%20Dados%20-%20Hipermercado%20Europeu/relatorio_hipermercado.md) |
+| Análise Exploratória - Hipermercado Europeu | Estudo de 10.000 transações comerciais (2020-2023) em países da União Europeia, identificando padrões de lucratividade, prejuízos de 109 mil euros e falhas na estratégia de descontos. | Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Tableau, Jupyter Notebook | [hipermercado.ipynb](https://github.com/leonardopizzetti/portfolio-ciencia-de-dados/blob/c287a26e84ca53eb623049e31c2d2f8a4808b8b5/An%C3%A1lise%20Explorat%C3%B3ria%20de%20Dados%20-%20Hipermercado%20Europeu/notebook_hipermercado.ipynb) | [hipermercado.md](https://github.com/leonardopizzetti/portfolio-ciencia-de-dados/blob/c287a26e84ca53eb623049e31c2d2f8a4808b8b5/An%C3%A1lise%20Explorat%C3%B3ria%20de%20Dados%20-%20Hipermercado%20Europeu/relatorio_hipermercado.md) |
 
 ## Detalhes dos projetos.
 
@@ -32,7 +32,7 @@ Abaixo está uma lista de projetos contendo descrições detalhadas, links para 
 
 ## Como utilizar este repositório.
 
-1. Consulte a tabela de projetos acima para encontrar uma análise de interesse.
+1. Consulte a tabela de projetos acima para encontrar um de interesse.
 2. Acesse o código no Jupyter Notebook para detalhes técnicos ou visualize o relatório em Markdown para uma análise voltada à tomada de decisão.
 3. Para sugestões ou colaborações, sinta-se à vontade para abrir uma *issue* ou entrar em contato!
 
